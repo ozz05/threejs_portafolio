@@ -68,9 +68,9 @@ const About = () => {
                                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                             />
-                            <div>
-                                <p className="grid-headtext">I work remotely across most timezones.</p>
-                                <GridSubText content="Based in Mexico, with remote work available" />
+                            <div className="text-center mt-4">
+                                <p className="grid-headtext">I work remotely across most time zones.</p>
+                                <GridSubText content="Based in Mexico" />
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                             </div>
                         </div>
