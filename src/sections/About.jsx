@@ -45,7 +45,7 @@ const About = () => {
                         />
                         <div>
                             <p className="grid-headtext">Technical Skills</p>
-                            <GridSubText content="Unity 3D/2D (Advanced) - C#" />
+                            <GridSubText content="Unity 3D & 2D (Advanced) - C#" />
                             <GridSubText content="Roblox (Advanced) - Lua" />
                             <GridSubText content="Unreal Engine 5 (Intermediate) - C++" />
                             <GridSubText content="Flutter - Dart" />

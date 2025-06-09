@@ -25,7 +25,7 @@ const Projects = () => {
     }
 
     return (
-        <section className={"c-space my-20"}>
+        <section className={"c-space my-20"} id="work">
             <p className={"head-text"}> My Work</p>
             <div className={"grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full"}>
 
@@ -42,7 +42,9 @@ const Projects = () => {
                     <div className={"flex flex-col gap-5 text-white-600 my-5"}>
                         <p className={"text-white text-2xl font-semibold animatedText"}>{currentProject.title}</p>
                         <p className={"animatedText"}>{currentProject.desc}</p>
+                        <p className={"text-white font-semibold animatedText"}>{"Roll: " + currentProject.roll}</p>
                         <p className={"animatedText"}>{currentProject.subdesc}</p>
+                        <p className={"animatedText"}>{"Platforms: " + currentProject.platforms}</p>
                     </div>
 
                     <div className={"flex items-center flex-wrap gap-5"}>
