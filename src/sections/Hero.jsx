@@ -70,10 +70,10 @@ const Hero = () => {
 
                             <HackerRoom scale = {sizes.deskScale} position={sizes.deskPosition} rotation={[0, -Math.PI, 0]}/>
                         </HeroCamera>
-                        <group>
-                            <RobloxR6 scale = {3} position={sizes.robloxR6Position} rotation={[0, 0, 0]}/>
-                            <UnityLogo scale ={1} position = {sizes.unityLogoPosition}></UnityLogo>
-                        </group>
+                        {/*<group>*/}
+                        {/*    <RobloxR6 scale = {3} position={sizes.robloxR6Position} rotation={[0, 0, 0]}/>*/}
+                        {/*    <UnityLogo scale ={1} position = {sizes.unityLogoPosition}></UnityLogo>*/}
+                        {/*</group>*/}
                         //Add lights
                         <ambientLight intensity={Math.PI}/>
                         <directionalLight position={[0, 0, 10]} intensity={1}/>
