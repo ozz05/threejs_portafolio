@@ -36,19 +36,19 @@ export const myProjects = [
             'Developed and maintained front-end features, implemented new gameplay mechanics and multiplayer gameplay, fixed critical bugs while maintaining a high level of quality.',
         platforms: "PC, Consoles(Xbox one, Xbox Series X, PS4, PS5, Switch)",
         href: 'https://store.steampowered.com/app/632360/Risk_of_Rain_2/',
-        texture: '/textures/project/ror2.mov',
-        logo: '/assets/ror2-Icon.jpg',
+        texture: 'textures/project/ror2.mov',
+        logo: 'assets/ror2-Icon.jpg',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: 'assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'Unity',
-                path: '/assets/unity-Logo.jpg',
+                path: 'assets/unity-Logo.jpg',
             },
             {
                 id: 2,
@@ -58,7 +58,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Git',
-                path: '/assets/git-Logo.png',
+                path: 'assets/git-Logo.png',
             },
         ],
     },
@@ -70,19 +70,19 @@ export const myProjects = [
             'Implemented core gameplay mechanics, like driving mechanics, zombie behavior and level design tools, developed responsive UI systems and helped integrating analytics while maintaining a high level of quality.',
         platforms: "Mobile(Android, IOS)",
         href: 'https://play.google.com/store/apps/details?id=com.amberstudio.driversurvivor&hl=en',
-        texture: '/textures/project/driverSurvivor.mov',
-        logo: '/assets/driverSurvivor-Icon.png',
+        texture: 'textures/project/driverSurvivor.mov',
+        logo: 'assets/driverSurvivor-Icon.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: 'assets/spotlight2.png',
         tags: [
             {
                 id: 1,
                 name: 'Unity',
-                path: '/assets/unity-Logo.jpg',
+                path: 'assets/unity-Logo.jpg',
             },
             {
                 id: 2,
@@ -92,12 +92,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Git',
-                path: '/assets/git-Logo.png',
+                path: 'assets/git-Logo.png',
             },
             {
                 id: 4,
                 name: 'Firebase',
-                path: '/assets/firebase-Logo.png',
+                path: 'assets/firebase-Logo.png',
             },
         ],
     },
@@ -109,19 +109,19 @@ export const myProjects = [
             'Designed and implemented the project\'s architecture, developed core gameplay mechanics and systems, was also responsible for managing the engineering team, project timelines and technical requirements.',
         platforms: "PC(Touch screen), VR(Oculus Quest 2)",
         href: 'https://japipaseointeractivo.mx/',
-        texture: '/textures/project/japi.mov',
-        logo: '/assets/japi-Icon.jpg',
+        texture: 'textures/project/japi.mov',
+        logo: 'assets/japi-Icon.jpg',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight3.png',
+        spotlight: 'assets/spotlight3.png',
         tags: [
             {
                 id: 1,
                 name: 'Unity',
-                path: '/assets/unity-Logo.jpg',
+                path: 'assets/unity-Logo.jpg',
             },
             {
                 id: 2,
@@ -131,7 +131,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Git',
-                path: '/assets/git-Logo.png',
+                path: 'assets/git-Logo.png',
             },
         ],
     },
@@ -143,8 +143,8 @@ export const myProjects = [
             'Designed and implemented the project\'s architecture, player rewards system, developed core gameplay mechanics and systems, was also responsible for managing the engineering team, project timelines and technical requirements.',
         platforms: "PC, Mobile, Consoles",
         href: 'https://www.youtube.com/watch?v=frPyTJ2kqZA',
-        texture: '/textures/project/sawX.mov',
-        logo: '/assets/sawX-Icon.jpg',
+        texture: 'textures/project/sawX.mov',
+        logo: 'assets/sawX-Icon.jpg',
         logoStyle: {
             backgroundColor: '#60f5a1',
             background:
@@ -152,12 +152,12 @@ export const myProjects = [
             border: '0.2px solid rgba(208, 213, 221, 1)',
             boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
         },
-        spotlight: '/assets/spotlight4.png',
+        spotlight: 'assets/spotlight4.png',
         tags: [
             {
                 id: 1,
                 name: 'Roblox',
-                path: '/assets/roblox-Logo.png',
+                path: 'assets/roblox-Logo.png',
             },
             {
                 id: 2,
@@ -167,7 +167,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Git',
-                path: '/assets/git-Logo.png',
+                path: 'assets/git-Logo.png',
             },
         ],
     },
@@ -179,19 +179,19 @@ export const myProjects = [
             'Designed and implemented the project\'s architecture, developed core gameplay mechanics and systems like: character\'s animations and sound state machines, player save systems, was also responsible for managing the engineering team, project timelines and technical requirements.',
         platforms: "PC, Mobile, Consoles",
         href: 'https://www.roblox.com/games/13009187490/Portal-Update-Secret-Neighbor-BETA',
-        texture: '/textures/project/secretNeighbor.mov',
-        logo: '/assets/secretNeighbor-Icon.jpg',
+        texture: 'textures/project/secretNeighbor.mov',
+        logo: 'assets/secretNeighbor-Icon.jpg',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
-        spotlight: '/assets/spotlight5.png',
+        spotlight: 'assets/spotlight5.png',
         tags: [
             {
                 id: 1,
                 name: 'Roblox',
-                path: '/assets/roblox-Logo.png',
+                path: 'assets/roblox-Logo.png',
             },
             {
                 id: 2,
@@ -201,7 +201,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Git',
-                path: '/assets/git-Logo.png',
+                path: 'assets/git-Logo.png',
             },
         ],
     },
@@ -213,19 +213,19 @@ export const myProjects = [
             'Designed and implemented the project\'s architecture, developed core gameplay mechanics and systems like: npc\'s behavior state machines, weapons, player save systems, was also responsible for managing the engineering team, project timelines and technical requirements.',
         platforms: "PC, Mobile",
         href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/metazells.mov',
-        logo: '/assets/metazells-Icon.jpg',
+        texture: 'textures/project/metazells.mov',
+        logo: 'assets/metazells-Icon.jpg',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
             boxShadow: '0px 0px 60px 0px #635BFF4D',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: 'assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'Roblox',
-                path: '/assets/roblox-Logo.png',
+                path: 'assets/roblox-Logo.png',
             },
             {
                 id: 2,
@@ -235,7 +235,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'Git',
-                path: '/assets/git-Logo.png',
+                path: 'assets/git-Logo.png',
             },
         ],
     },
@@ -262,7 +262,7 @@ export const workExperiences = [
         pos: 'Generalist Software Engineer',
         duration: 'Oct 2024 - May 2025',
         title: "Side (formerly Ghostpunch Games) is a game development team led by industry veterans with years of experience working with some of the most successful companies in the gaming industry.",
-        icon: '/assets/ghostpunch-logo.jpg',
+        icon: 'assets/ghostpunch-logo.jpg',
         animation: 'victory3',
     },
     {
@@ -271,7 +271,7 @@ export const workExperiences = [
         pos: 'Unity Developer / Roblox Enginering Lead',
         duration: 'Jan 2022 - Oct 2024',
         title: "Amber is a full-service, multi-platform, game development company. Our staff consists of about 850+ professionals distributed globally, spanning 4 continents, in locations such as San Francisco, Los Angeles, Bucharest, Botosani, Guadalajara, Bogota, Montreal, Kyiv or Manila.",
-        icon: '/assets/amber-logo.jpg',
+        icon: 'assets/amber-logo.jpg',
         animation: 'victory2',
     },
     {
@@ -280,7 +280,7 @@ export const workExperiences = [
         pos: 'Roblox Lead Engineer (Freelance)',
         duration: 'Aug 2022 - Mar 2023',
         title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/fraktalia-logo.png',
+        icon: 'assets/fraktalia-logo.png',
         animation: 'victory',
     },
     {
@@ -289,7 +289,7 @@ export const workExperiences = [
         pos: 'Game Developer',
         duration: 'Aug 2020 - Jan 2022',
         title: "Amber is a full-service, multi-platform, game development company. Our staff consists of about 850+ professionals distributed globally, spanning 4 continents, in locations such as San Francisco, Los Angeles, Bucharest, Botosani, Guadalajara, Bogota, Montreal, Kyiv or Manila.",
-        icon: '/assets/amber-logo.jpg',
+        icon: 'assets/amber-logo.jpg',
         animation: 'dancing',
     },
 ];

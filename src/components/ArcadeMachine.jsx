@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const ArcadeMachine = (props) => {
-    const { nodes, materials } = useGLTF('/models/arcadeMachine.glb')
+    const { nodes, materials } = useGLTF('models/arcadeMachine.glb')
     return (
         <group {...props} dispose={null}>
             <group rotation={[-Math.PI / 2, 0, 0]} scale={100}>
@@ -206,7 +206,7 @@ const ArcadeMachine = (props) => {
     )
 }
 
-useGLTF.preload('/models/arcadeMachine.glb')
+useGLTF.preload('models/arcadeMachine.glb')
 
 export default ArcadeMachine;
 

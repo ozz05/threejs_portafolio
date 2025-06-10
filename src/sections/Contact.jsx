@@ -51,7 +51,7 @@ const Contact = () => {
     return (
         <section className={"c-space my-20"} id="contact">
             <div className={"relative min-h-screen flex items-center justify-center flex-col"}>
-                <img src={"/assets/terminal.png"} alt={"terminal background"} className={"absolute inset-0 min-h-screen"}></img>
+                <img src={"assets/terminal.png"} alt={"terminal background"} className={"absolute inset-0 min-h-screen"}></img>
 
                 <div className={"contact-container"}>
                     <h3 className={"head-text"}>
@@ -105,7 +105,7 @@ const Contact = () => {
 
                         <button className={"field-btn"} type={"submit"} disabled={loading} onClick={handleSubmit}>
                             {loading ? "Sending..." : "Send Message"}
-                            <img src={"/assets/arrow-up.png"} alt={"arrow"} className={"field-btn_arrow"}/>
+                            <img src={"assets/arrow-up.png"} alt={"arrow"} className={"field-btn_arrow"}/>
                         </button>
                     </form>
                 </div>

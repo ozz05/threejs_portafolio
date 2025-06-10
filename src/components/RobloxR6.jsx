@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 const RobloxR6 = (props) => {
     const targetRef = useRef();
-    const { nodes, materials } = useGLTF('/models/roblox_r6.glb')
+    const { nodes, materials } = useGLTF('models/roblox_r6.glb')
 
     useGSAP(() => {
         gsap.to(targetRef.current.position, {
@@ -33,6 +33,6 @@ const RobloxR6 = (props) => {
     )
 }
 
-useGLTF.preload('/models/roblox_r6.glb')
+useGLTF.preload('models/roblox_r6.glb')
 
 export default RobloxR6

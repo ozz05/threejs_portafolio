@@ -81,7 +81,7 @@ const About = () => {
                 <div className="xl:col-span-2 xl:row-span-3">
                     <div className="grid-container h-full">
                         <img
-                            src="/assets/grid3.png"
+                            src="assets/grid3.png"
                             alt="grid3"
                             className="w-full sm:h-[266px] h-fit object-contain"
                         />
@@ -99,7 +99,7 @@ const About = () => {
                 <div className="xl:col-span-1 xl:row-span-2">
                     <div className="grid-container h-full">
                         <img
-                            src="/assets/grid4.png"
+                            src="assets/grid4.png"
                             alt="grid4"
                             className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
                         />

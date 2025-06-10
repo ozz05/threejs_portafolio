@@ -4,14 +4,14 @@ import { useGLTF, useAnimations, useFBX } from '@react-three/drei';
 const Developer = ({ animationName = "idle", ...props }) => {
     const group = useRef();
 
-    const { nodes, materials } = useGLTF('/models/animations/viking.glb');
+    const { nodes, materials } = useGLTF('models/animations/viking.glb');
 
     // Load FBX animation
-    const {animations: idleAnimation} = useFBX("/models/animations/idle.fbx");
-    const {animations: dancingAnimation} = useFBX("/models/animations/dancing.fbx");
-    const {animations: victoryAnimation} = useFBX("/models/animations/victory.fbx");
-    const {animations: victory2Animation} = useFBX("/models/animations/victory2.fbx");
-    const {animations: victory3Animation} = useFBX("/models/animations/victory3.fbx");
+    const {animations: idleAnimation} = useFBX("models/animations/idle.fbx");
+    const {animations: dancingAnimation} = useFBX("models/animations/dancing.fbx");
+    const {animations: victoryAnimation} = useFBX("models/animations/victory.fbx");
+    const {animations: victory2Animation} = useFBX("models/animations/victory2.fbx");
+    const {animations: victory3Animation} = useFBX("models/animations/victory3.fbx");
 
     idleAnimation[0].name = "idle";
     dancingAnimation[0].name = "dancing";
@@ -51,6 +51,6 @@ const Developer = ({ animationName = "idle", ...props }) => {
     );
 };
 
-useGLTF.preload('/models/animations/viking.glb');
+useGLTF.preload('models/animations/viking.glb');
 
 export default Developer;
