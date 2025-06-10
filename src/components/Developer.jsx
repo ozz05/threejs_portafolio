@@ -26,12 +26,12 @@ const Developer = ({ animationName = "idle", ...props }) => {
     useEffect(() => {
         console.log(animationName);
         if (actions[animationName]) {
-            actions[animationName].reset().fadeIn(0.1).play();
+            actions[animationName].reset().fadeIn(0.5).play();
         }
 
         return () => {
             if (actions[animationName]) {
-                actions[animationName].fadeOut(0.1);
+                actions[animationName].fadeOut(0.5);
             }
         };
     }, [animationName, actions]);
