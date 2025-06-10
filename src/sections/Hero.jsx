@@ -10,6 +10,7 @@ import RobloxR6 from "../components/RobloxR6.jsx";
 import UnityLogo from "../components/UnityLogo.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import HackerRoom from "../components/HackerRoom.jsx";
 
 const Hero = () => {
     // const controls = useControls('ArcadeMachine',{
@@ -67,11 +68,7 @@ const Hero = () => {
                         <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
                         <HeroCamera isMobile={isMobile} >
 
-                            <ArcadeMachine
-                                scale={sizes.arcadeMachineScale}
-                                position={sizes.arcadeMachinePosition}
-                                rotation={[0, 0, 0]}
-                            />
+                            <HackerRoom scale = {sizes.deskScale} position={sizes.deskPosition} rotation={[0, -Math.PI, 0]}/>
                         </HeroCamera>
                         <group>
                             <RobloxR6 scale = {3} position={sizes.robloxR6Position} rotation={[0, 0, 0]}/>
