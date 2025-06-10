@@ -2,11 +2,10 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import gsap from 'gsap';
 import {useGSAP} from "@gsap/react";
-import {getAssetPath} from "../Utils/assets.js";
 
 const UnityLogo = (props) => {
     const targetRef = useRef();
-    const { nodes, materials } = useGLTF(getAssetPath('models/unity_logo_3d.glb'))
+    const { nodes, materials } = useGLTF('models/unity_logo_3d.glb')
 
     useGSAP(() => {
         gsap.to(targetRef.current.position, {
@@ -39,6 +38,6 @@ const UnityLogo = (props) => {
     )
 }
 
-useGLTF.preload(getAssetPath('models/unity_logo_3d.glb'))
+useGLTF.preload('models/unity_logo_3d.glb')
 
 export default UnityLogo
