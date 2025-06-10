@@ -2,10 +2,11 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
+import {getAssetPath} from "../Utils/assets.js";
 
 const RobloxR6 = (props) => {
     const targetRef = useRef();
-    const { nodes, materials } = useGLTF('models/roblox_r6.glb')
+    const { nodes, materials } = useGLTF(getAssetPath('models/roblox_r6.glb'))
 
     useGSAP(() => {
         gsap.to(targetRef.current.position, {
@@ -33,6 +34,6 @@ const RobloxR6 = (props) => {
     )
 }
 
-useGLTF.preload('models/roblox_r6.glb')
+useGLTF.preload(getAssetPath('models/roblox_r6.glb'))
 
 export default RobloxR6
