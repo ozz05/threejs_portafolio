@@ -2,7 +2,7 @@
   "name": "threejs_portafolio",
   "homepage": "https://ozz05.github.io/threejs_portafolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
